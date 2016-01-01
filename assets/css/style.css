@@ -1,0 +1,136 @@
+* {
+    font-family: Tahoma,Geneva,sans-serif,arial,verdana;
+    padding: 0;
+    margin: 0;
+}
+a {
+    color: #41658c;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a.actived {
+    text-decoration: underline;
+}
+.area {
+    border: 1px solid #dae1e8;
+    padding: 1em;
+    background-color: white;
+    color: #7C7F82;
+    margin-bottom: 0.5em;
+}
+#top-menu {
+}
+#top-menu ul {
+    list-style-type: none;
+}
+#top-menu li {
+    display: inline; 
+    padding-right: 1em;
+    font-size: 0.8em;
+}
+#top-menu li:after {
+    padding-left: 1em;
+    content: "|";
+}
+#top-menu li:last-child:after {
+    content: "";
+}
+.row {
+    margin-bottom: 1em;
+}
+.entity-info {
+    float: left;
+    margin-right: 1em;
+    max-width: 30%;
+}
+.entity-info .content {
+    color: #56789d;
+    font-size: 0.8em;
+}
+.entity-info .add-content {
+    color: #7c7f82;
+    font-size: 0.5em;
+}
+.clear_fix {
+    clear: both;
+}
+textarea, input[type=text]{
+    outline: medium none;
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #c3cbd4;
+    color: #000;
+    padding: 5px 9px 7px;
+}
+button.button-blue {
+    background: #6383a8 none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 13px;
+    margin: 0;
+    outline: medium none;
+    overflow: visible;
+    padding: 6px 16px 7px;
+    text-decoration: none;
+    transition: background-color 100ms ease-in-out 0s;
+    vertical-align: top;
+    white-space: nowrap;
+}
+.w-1 {
+    width: 10%;
+}
+.w-2 {
+    width: 20%;
+}
+.w-3 {
+    width: 30%;
+}
+.w-4 {
+    width: 40%;
+}
+.w-5 {
+    width: 50%;
+}
+.w-6 {
+    width: 60%;
+}
+.w-7 {
+    width: 70%;
+}
+.w-8 {
+    width: 80%;
+}
+.w-9 {
+    width: 90%;
+}
+.w-10 {
+    width: 100%;
+}
+.fs-1 {
+    font-size: 1.2em;
+}
+.fs-2 {
+    font-size: 15px;
+}
+.fs-3 {
+    font-size: 13px;
+}
+.fs-4 {
+    font-size: 11px;
+}
+.fs-5 {
+    font-size: 0.8em;
+}
+.fs-6 {
+    font-size: 0.7em;
+}
+.fs-7 {
+    font-size: 0.6em;
+}
+p {
+    margin-bottom: 0.5em;
+}
