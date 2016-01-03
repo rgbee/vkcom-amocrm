@@ -28,7 +28,6 @@ a.actived {
 #top-menu li {
     display: inline; 
     padding-right: 1em;
-    font-size: 0.8em;
 }
 #top-menu li:after {
     padding-left: 1em;
@@ -133,4 +132,40 @@ button.button-blue {
 }
 p {
     margin-bottom: 0.5em;
+}
+#left-menu ul {
+    list-style-type: none;
+}
+#left-menu li {
+    padding-right: 1em;
+}
+input#search {
+    background: rgba(0, 0, 0, 0) url("../images/search_icon.gif") no-repeat scroll 6px -10px;
+    padding-left: 20px;
+}
+.height-1 {
+    height: 2em;
+}
+#item2-content {
+    margin-bottom: 1em;
+}
+#top-submenu {
+    padding-bottom: 3em;
+}
+#top-submenu ul {
+    list-style-type: none;
+}
+#top-submenu li {
+    display: block;
+    float: left;
+    padding: 0.3em 0.4em;
+    color: #41658c;
+    cursor: pointer;
+}
+#top-submenu li.selected {
+    background: #6383a8 none repeat scroll 0 0;
+    color: white;
+    border: 0 none;
+    border-radius: 2px;
+    cursor: text;
 }
